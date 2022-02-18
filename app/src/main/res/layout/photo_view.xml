@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="214dp">
+
+        <TextView
+            android:id="@+id/photoName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/textview"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/oldPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <ImageView
+            android:id="@+id/newPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
