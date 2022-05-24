@@ -2,4 +2,7 @@
     <string name="app_name">Old Town</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="textview">TextView</string>
+    <string name="mainBtn">Меню</string>
+    <string name="mapBtn">Карта</string>
+    <string name="questBtn">Вопросы</string>
 </resources>

@@ -6,4 +6,5 @@ public class Markers {
     public float v1;
     public String photoResOld;
     public String photoResNew;
+    public String describe;
 }

@@ -21,18 +21,35 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/oldPhoto"
+        <HorizontalScrollView
             android:layout_width="match_parent"
-            android:layout_height="340dp"
-            tools:ignore="ImageContrastCheck"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="484dp">
 
-        <ImageView
-            android:id="@+id/newPhoto"
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/oldPhoto"
+                    android:layout_width="411dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="ImageContrastCheck"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <ImageView
+                    android:id="@+id/newPhoto"
+                    android:layout_width="411dp"
+                    android:layout_height="match_parent"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/describe"
             android:layout_width="match_parent"
-            android:layout_height="340dp"
-            tools:srcCompat="@tools:sample/avatars" />
+            android:layout_height="196dp"
+            android:text="TextView" />
 
     </LinearLayout>
 
