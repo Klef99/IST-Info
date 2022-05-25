@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Old Town</string>
-    <string name="title_activity_maps">MapsActivity</string>
+    <string name="app_name">Ист-Инфо</string>
+    <string name="title_activity_maps">Ист-Инфо</string>
     <string name="textview">TextView</string>
     <string name="mainBtn">Меню</string>
     <string name="mapBtn">Карта</string>
-    <string name="questBtn">Вопросы</string>
+    <string name="questBtn">Предложения</string>
 </resources>
