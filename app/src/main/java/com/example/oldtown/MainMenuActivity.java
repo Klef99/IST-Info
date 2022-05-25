@@ -92,13 +92,9 @@ public class MainMenuActivity extends Activity {
         linearLayout.setOrientation(LinearLayout.HORIZONTAL);
         TextView textView = new TextView(this);
         textView.setText(markers.name);
-//        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-//        textView.setLayoutParams(params);
         linearLayout.addView(generateImageView(markers.photoResNew));
         linearLayout.addView(textView);
         cardView.addView(linearLayout);
-//        cardView.addView(textView);
-//        cardView.addView(generateImageView(markers.photoResNew));
         Vi.addView(cardView);
     }
 

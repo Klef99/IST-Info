@@ -110,7 +110,6 @@ private String pathToJson;
         Context context = getBaseContext();
         Gson g = new Gson();
         StorageReference jsonRef = this.storage.getReferenceFromUrl("gs://old-town-338512.appspot.com/BLG/images.json");
-        final long ONE_MEGABYTE = 1024 * 1024;
         File outputDir = context.getCacheDir(); // context being the Activity pointer
         File localFile = File.createTempFile("images", ".json", outputDir);
         pathToJson = localFile.getAbsolutePath();
