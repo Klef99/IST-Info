@@ -101,7 +101,6 @@ public class MainMenuActivity extends Activity {
 //        cardView.addView(generateImageView(markers.photoResNew));
         Vi.addView(cardView);
     }
-    public MainMenuActivity(){}
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
